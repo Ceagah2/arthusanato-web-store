@@ -23,6 +23,7 @@ export const theme = {
     body: 'Montserrat, sans-serif'
   },
   fontSizes:{
+    header: '5rem',
     heading: '2rem',
     subHeading: '1.75rem',
     title: '1.5rem',
