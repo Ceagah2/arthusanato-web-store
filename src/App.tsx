@@ -1,4 +1,4 @@
-import { Container, Header, NavBar, About } from "./components/"
+import { Container, Header, NavBar, About, Products, Contact, Footer } from "./components/"
 import HeaderImage from './assets/header-image.jpg'
 
 
@@ -9,6 +9,9 @@ function App() {
       <Header image={HeaderImage} title="Arthus'anato e Lele vasos" subtitle="A arte inovando na cerâmica" id="Home"/>
       <NavBar />
       <About id="About" image={AboutImage} title="Quem somos"/>
+      <Products />
+      <Contact />
+      <Footer />
     </Container>
   )
 }

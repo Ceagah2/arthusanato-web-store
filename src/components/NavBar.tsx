@@ -20,8 +20,6 @@ export const NavContainer = styled.nav`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: ${theme.colors.gray};
-  margin-top: 20px;
 `;
 export const NavList = styled.ul`
   width: 100%;
@@ -29,7 +27,8 @@ export const NavList = styled.ul`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: ${theme.colors.gray};
+  background-color: ${theme.colors.white};
+  padding: 20px;
 `
 export const NavItem = styled.li`
   list-style: none;
@@ -45,5 +44,6 @@ export const NavLink = styled.a`
   font-weight: ${theme.fontWeights.bold};
   &:hover {
       color: ${theme.colors.brown};
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     }
 `

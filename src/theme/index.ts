@@ -16,7 +16,8 @@ export const theme = {
     blue: '#87CEEB',
     gray: '#D3D3D3',
     green: '#7FFFD4',
-    pink: '#FFB6C1'
+    pink: '#FFB6C1',
+    white: '#FFFFFF',
   },
   fonts:{
     heading: '"Dancing Script", cursive',
@@ -24,10 +25,10 @@ export const theme = {
   },
   fontSizes:{
     header: '5rem',
-    heading: '2rem',
+    heading: '3rem',
     subHeading: '1.75rem',
     title: '1.5rem',
-    body: '1rem',
+    body: '1.25rem',
     description: '0.75rem',
   },
   fontWeights: {

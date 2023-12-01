@@ -28,7 +28,7 @@ export const About = (props: IAbout) => {
           Ipsa maxime ab obcaecati eveniet ratione ullam quam? Eius ex, beatae voluptate libero illum similique iure reprehenderit fuga quisquam quod? Corrupti eaque quae adipisci mollitia magni illum doloribus magnam expedita!
           Ullam, quae eius aliquam illo soluta laudantium adipisci similique iusto iste voluptatibus officiis rerum excepturi ipsam laborum, cupiditate autem magnam veniam fugiat assumenda at, obcaecati minima porro pariatur repellendus. Unde?
           Amet atque laborum rerum dolore quibusdam doloremque cupiditate consectetur ipsum impedit, ducimus facere harum aliquam iure eum commodi tempora voluptatum animi possimus aspernatur voluptas esse illum explicabo. Quibusdam, perferendis animi!
-          Obcaecati quam facilis praesentium corporis aut, provident assumenda! Illo dolor tempore itaque doloremque eos voluptate dignissimos voluptas labore non, quisquam dolore cumque assumenda, nulla asperiores suscipit quod officia reprehenderit nam.</AboutText>
+          Obcaecati quam facilis praesentium corporis aut, provident assumenda!</AboutText>
         </AboutTextContainer>
     </AboutContainer>
   )
@@ -37,11 +37,10 @@ export const About = (props: IAbout) => {
 
 export const AboutContainer = styled.section`
   width: 100%;
-  height: 600px;
-  padding: 10px;
+  height: 100%;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
 `;
 
 export const AboutImage = styled.div<THeaderImage>`
@@ -72,5 +71,5 @@ export const AboutText = styled.p`
   font-family: ${theme.fonts.body};
   color: ${theme.colors.brown};
   text-align: justify;
-  padding: 10px;
+  padding: 0px 10px;
 `
